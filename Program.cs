@@ -18,6 +18,14 @@ namespace Homework6_3
             this.Age = Age;
             this.Gender = Gender;
         }
+        public void GetInfo()
+        {
+            Console.WriteLine($"Cats name :{this.Name}");
+            Console.WriteLine($"Cats color :{this.Color}");
+            Console.WriteLine($"Cats Eyes color :{this.EyesColor}");
+            Console.WriteLine($"Cats age :{this.Age}");
+            Console.WriteLine($"Cats gender :{this.Gender}");
+        }
     }
 
 
